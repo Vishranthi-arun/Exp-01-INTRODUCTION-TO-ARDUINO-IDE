@@ -181,6 +181,50 @@ delay(1000); // wait for a second
 digitalWrite(ledPin, LOW); // set the LED off
 delay(1000);
 ```
+## PROCEDURE:
+```
+ Open tinker cad account 
+1.Select Arduino uno , bread board , digital input and digital output 
+2.Connect the circuit as given in the figure 
+3.Develop the program and compile it for any errors 
+4.Execute the program 
+5.Check the simulation 
+```
+## PROGRAM:
+```
+// C++ code
+//
+void setup()
+{
+  pinMode(12, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(4, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(12, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(12, LOW);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(8, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  delay(500);
+  digitalWrite(7, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(7, LOW);
+  delay(500);
+  digitalWrite(4, HIGH);
+  delay(500); // Wait for 1000 millisecond(s)
+  digitalWrite(4, LOW);
+  delay(500);
+}
+```
+
+## OUTPUT:
+![1](https://user-images.githubusercontent.com/93427278/187458600-a71e4c37-a157-4c20-b60b-828598354e30.png)
 
 ## RESULTS:
 Functioning of arduino uno and IDE is studied.
